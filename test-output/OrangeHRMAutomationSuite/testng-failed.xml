@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMAutomationSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeHRMDemo(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="orangeHRM_demo.testCases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- orangeHRM_demo.testCases.LoginTest -->
+    </classes>
+  </test> <!-- OrangeHRMDemo(failed) -->
+</suite> <!-- Failed suite [OrangeHRMAutomationSuite] -->
